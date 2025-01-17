@@ -1,0 +1,16 @@
+#python 
+venv/
+.pylintrc
+__pycache__/
+
+#IDE
+.vscode
+.idea
+
+#db
+logs.db
+reminders.db
+users.db
+
+#tokens
+.env
