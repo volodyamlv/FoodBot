@@ -487,8 +487,8 @@ async def process_carbs(message: Message, state: FSMContext):
 
 
 @start_router.message()
-async def reply_msg(message: Message, state: FSMContext):
-    await message.answer(message.text)
+async def reply_msg(message: Message):
+    await message.answer("Для взаимодействия со мной используйте команды")
 
 
 async def start_bot():
